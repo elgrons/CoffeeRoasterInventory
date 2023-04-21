@@ -10,7 +10,7 @@ function InventoryDetail(props){
       <h3>Name: {inventory.name}</h3><br />
       <li>Origin: {inventory.origin} | Roast: {inventory.roast} </li><br />
       <li>Price: {inventory.price}</li><br />
-      <li>Quantity Available: {inventory.quantity}</li>
+      <li>Quantity Available: {inventory.quantity}</li><hr />
       <button className="btn btn-light" onClick={ props.onClickingEdit }>Update Inventory Item Details</button> <br />
       <button className="btn btn-light" onClick={()=> onClickingDelete(inventory.id) }>Delete Inventory Item</button> 
       <hr/>

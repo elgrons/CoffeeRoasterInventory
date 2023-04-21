@@ -9,7 +9,6 @@ function InventoryItem(props){
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(event.target.quantity.value);
     return props.onRestockInventory(props.id, parseInt(event.target.quantity.value));
     }
 
@@ -22,8 +21,7 @@ function InventoryItem(props){
     <h3>Name: {props.name}</h3><br />
     <li>Origin: {props.origin} | Roast: {props.roast} </li><br />
     <li>Price: {props.price}</li><br />
-    <li>Quantity Available: {props.quantity}</li>
-    <button className="btn btn-block btn-lg btn-dark" onClick={handleClick}>Vend Inventory</button>
+    <li>Quantity Available: {props.quantity}</li><hr />
     </>
   }
 
@@ -32,6 +30,7 @@ function InventoryItem(props){
       <div onClick={() => props.onInventorySelect(props.id)}>
       {inventoryDisplay}
       </div>
+      <button className="btn btn-outline-dark" onClick={handleClick}>Vend Inventory</button>
       <form onSubmit={handleSubmit}>
         <input type="number" required min="1" max="100" name="quantity" className="form-control"/>
       <button className="btn btn-outline-dark">Restock Inventory</button>
