@@ -1,4 +1,4 @@
-# Inventory Tracker
+# ☕️Coffee Roaster Inventory Tracker☕️
 
 #### By Eliot Gronstal 4.21.23
 
