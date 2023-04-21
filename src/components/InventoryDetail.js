@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function InventoryDetail(props){
+function InventoryDetail(props) {
   const { inventory, onClickingDelete } = props; 
 
   return (
