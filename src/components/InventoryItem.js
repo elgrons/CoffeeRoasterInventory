@@ -9,7 +9,6 @@ function InventoryItem(props){
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.log(event.target.quantity.value);
     return props.onRestockInventory(props.id, parseInt(event.target.quantity.value));
     }
 

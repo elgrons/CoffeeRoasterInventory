@@ -69,7 +69,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* _No known issues_
+* _The navbar is not currently functional, but it is pretty._
 
 * _Additional React components and functionality can be added as I increase my knowledge base on the React library_
 
