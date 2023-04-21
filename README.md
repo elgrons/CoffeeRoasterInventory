@@ -22,9 +22,9 @@ _The application has the following functionality:_
 * _JavaScript_
 * _Node_
 
-# Component Diagram
+## Component Diagram
 
-![component diagram](diagram.jpg)
+![component diagram](inventory-tracker-diagram.jpg)
 
 ### Setup/Installation Requirements:
 
@@ -71,7 +71,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 * _No known issues_
 
-* _Additional React components and functionality can be added as I increase our knowledge base on the React library_
+* _Additional React components and functionality can be added as I increase my knowledge base on the React library_
 
 * Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
