@@ -19,11 +19,10 @@ function InventoryItem(props){
   } else {
     inventoryDisplay =
     <>
-    <h3>Name: {props.name}</h3><br />
-    <li>Origin: {props.origin} | Roast: {props.roast} </li><br />
-    <li>Price: {props.price}</li><br />
-    <li>Quantity Available: {props.quantity}</li>
-    <button className="btn btn-block btn-lg btn-dark" onClick={handleClick}>Vend Inventory</button>
+    <h2><strong>Name:</strong> {props.name}</h2><br />
+    <li><strong>Origin:</strong> {props.origin} | <strong>Roast:</strong> {props.roast} </li><br />
+    <li><strong>Price:</strong> ${props.price}</li><br />
+    <li><strong>Quantity Available:</strong> {props.quantity}</li><hr />
     </>
   }
 
@@ -32,8 +31,9 @@ function InventoryItem(props){
       <div onClick={() => props.onInventorySelect(props.id)}>
       {inventoryDisplay}
       </div>
+      <button className="btn btn-outline-dark" onClick={handleClick}>Vend Inventory</button>
       <form onSubmit={handleSubmit}>
-        <input type="number" required min="1" max="100" name="quantity" className="form-control"/>
+        <input type="number" required min="1" max="100" name="quantity" placeholder="1" className="form-control"/>
       <button className="btn btn-outline-dark">Restock Inventory</button>
       </form>
     </React.Fragment>

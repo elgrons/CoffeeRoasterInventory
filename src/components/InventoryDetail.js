@@ -7,10 +7,10 @@ function InventoryDetail(props){
   return (
     <React.Fragment>
       <h1>Inventory Details</h1><br />
-      <h3>Name: {inventory.name}</h3><br />
-      <li>Origin: {inventory.origin} | Roast: {inventory.roast} </li><br />
-      <li>Price: {inventory.price}</li><br />
-      <li>Quantity Available: {inventory.quantity}</li>
+      <h2><strong>Name:</strong> {inventory.name}</h2><br />
+      <li><strong>Origin:</strong> {inventory.origin} | <strong>Roast:</strong> {inventory.roast} </li><br />
+      <li><strong>Price:</strong> ${inventory.price}</li><br />
+      <li><strong>Quantity Available:</strong> {inventory.quantity}</li><hr />
       <button className="btn btn-light" onClick={ props.onClickingEdit }>Update Inventory Item Details</button> <br />
       <button className="btn btn-light" onClick={()=> onClickingDelete(inventory.id) }>Delete Inventory Item</button> 
       <hr/>
