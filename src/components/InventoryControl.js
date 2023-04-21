@@ -31,7 +31,7 @@ class InventoryControl extends React.Component {
     }
   }
 
-  handleDeletingIventory = (id) => {
+  handleDeletingInventory = (id) => {
     const newMainInventoryList = this.state.mainInventoryList.filter(inventory => inventory.id !== id);
     this.setState({
       mainInventoryList: newMainInventoryList,
