@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
 .body {
   background-color: #282c34;
   color: white;
   padding: 40px;
-  font-family: Arial;
+  font-family: Sono;
   text-align: center;
 }
 
@@ -35,5 +37,8 @@
 }
 
 .header-img {
-  display: fluid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import './styles.css';
 import Header from "./Header";
 import InventoryControl from "./InventoryControl";
 import Container from 'react-bootstrap/Container';
