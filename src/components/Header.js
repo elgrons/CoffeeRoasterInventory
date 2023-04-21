@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Header() {
   return (
     <React.Fragment>
-      <img src={wallpaper} alt="Geo design for background" className="header-img"/>
+      <img src={wallpaper} alt="Geo design for background" className="img-rounded shadow-2-strong"/>
       <Navbar fixed="top" bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Coffee Roastery Wholesale Inventory Tracker</Navbar.Brand>
