@@ -33,7 +33,7 @@ function InventoryItem(props){
       {inventoryDisplay}
       </div>
       <form onSubmit={handleSubmit}>
-        <input type="number" min="1" max="100" name="quantity" className="form-control"/>
+        <input type="number" required min="1" max="100" name="quantity" className="form-control"/>
       <button className="btn btn-outline-dark">Restock Inventory</button>
       </form>
     </React.Fragment>
@@ -41,11 +41,11 @@ function InventoryItem(props){
 }
 
 InventoryItem.propTypes = {
-  name: PropTypes.string,
-  origin: PropTypes.string,
-  roast: PropTypes.string,
-  price: PropTypes.number,
-  quantity: PropTypes.number,
+  name: PropTypes.string.isRequired,
+  origin: PropTypes.string.isRequired,
+  roast: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  quantity: PropTypes.number.isRequired,
   id: PropTypes.string,
   onVendInventory: PropTypes.func,
   onRestockInventory: PropTypes.func,
