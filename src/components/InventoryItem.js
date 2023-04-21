@@ -29,12 +29,12 @@ function InventoryItem(props){
 
   return (
     <React.Fragment>
-      <div onClick={() => props.onItemSelect(props.id)}>
+      <div onClick={() => props.onInventorySelect(props.id)}>
       {inventoryDisplay}
       </div>
       <form onSubmit={handleSubmit}>
         <input type="number" min="1" max="100" name="quantity" className="form-control"/>
-      <button class="btn btn-outline-dark">Restock Inventory</button>
+      <button className="btn btn-outline-dark">Restock Inventory</button>
       </form>
     </React.Fragment>
   );
