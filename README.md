@@ -1,6 +1,39 @@
-# Getting Started with Create React App
+# Inventory Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### By Eliot Gronstal 4.21.23
+
+#### _A React application that tracks inventory for a local business that includes CRUD functionality. Made for Independent Code Review at Epicodus Week 13._
+
+## Description
+_The application has the following functionality:_
+
+* A user can see a list/menu of all available types of coffee beans.
+* For each item, a user can see its name, origin, price, and roast (light, medium, or dark) of the coffee bean.
+* A user can submit a form to add a new burlap sack of coffee to the inventory.
+* A user can click on a burlap sack to see its detail page.
+* A user can see how many pounds of coffee beans are left in a burlap sack. A burlap sack has roughly 130 pounds.
+* A user can click a button to sell a pound of coffee beans. This should decrease the number of pounds left by 1. The number of pounds in a sack of coffee beans is not able to go below 0.
+
+## Technologies Used
+
+* _React_
+* _JSX_
+* _HTML/CSS_
+* _JavaScript_
+* _Node_
+
+# Component Diagram
+
+![component diagram](diagram.jpg)
+
+### Setup/Installation Requirements:
+
+* First, copy the git repository url and open a shell program & navigate to your machine's desktop
+* Clone the repository using the copied URL and the `git clone` command
+* In the shell program, navigate to the root directory of the newly created file called "inventory-tracker"
+* Run the `npm install` command to install dependencies
+* After the installation updates, in the root directory type `npm run start` to start the program
+* If the web page doesn't open on its own, open a web browser (such as Google Chrome) and enter the following into the URL: `http://localhost:3000/`
 
 ## Available Scripts
 
@@ -8,23 +41,18 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -39,33 +67,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Known Bugs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* _No known issues_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* _Additional React components and functionality can be added as I increase our knowledge base on the React library_
 
-### Code Splitting
+* Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+_[MIT](https://opensource.org/license/mit/)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Inventory-Tracker
+Copyright (c) 2023 _Eliot Gronstal_
