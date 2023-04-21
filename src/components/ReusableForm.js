@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import Form from 'react-bootstrap/Form';
 
 export default function ReusableForm(props) {
   return (
@@ -10,27 +10,27 @@ export default function ReusableForm(props) {
       <Row>
           <Col>
       <form onSubmit={props.formSubmissionHandler}>
-        <Form.Control input
+        <Form.Control
           type='text'
           name='name'
           required='required'
           placeholder='Coffee Bean Name' /><br />
-          <Form.Control input
+          <Form.Control
           type='text'
           name='origin'
           required='required'
           placeholder='Coffee Bean Origin' /><br />
-          <Form.Control input
+          <Form.Control
           type='text'
           name='roast'
           required='required'
           placeholder='Light, Medium or Dark Roast' /><br />
-          <Form.Control input
+          <Form.Control
           type='number'
           name='price'
           required='required'
           placeholder='1' /><br />
-        <Form.Control input
+        <Form.Control
           type='number'
           name='quantity'
           required='required'
