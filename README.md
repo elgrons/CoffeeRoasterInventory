@@ -8,11 +8,11 @@
 _The application has the following functionality:_
 
 * A user can see a list/menu of all available types of coffee beans.
-* For each item, a user can see its name, origin, price, and roast (light, medium, or dark) of the coffee bean.
-* A user can submit a form to add a new burlap sack of coffee to the inventory.
-* A user can click on a burlap sack to see its detail page.
-* A user can see how many pounds of coffee beans are left in a burlap sack. A burlap sack has roughly 130 pounds.
-* A user can click a button to sell a pound of coffee beans. This should decrease the number of pounds left by 1. The number of pounds in a sack of coffee beans is not able to go below 0.
+* For each inventory item, a user can see its name, origin, price, and roast (light, medium, or dark) of the coffee bean.
+* A user can submit a form to add a quantity of coffee to the inventory.
+* A user can click on a burlap sack to see its details page.
+* A user can see how many pounds of coffee beans are in stock.
+* A user can click a button to sell a pound of coffee beans. This should decrease the number of pounds remaining by 1. The quantity of coffee beans is not able to reduce below 0.
 
 ## Technologies Used
 
