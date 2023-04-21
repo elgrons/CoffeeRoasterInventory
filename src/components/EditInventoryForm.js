@@ -7,7 +7,7 @@ function EditInventoryForm (props) {
 
   function handleEditInventoryFormSubmission(event) {
     event.preventDefault();
-    props.onEditInventory({name: event.target.name.value, origin: event.target.origin.value, roast: event.target.roast.value, price: event.target.price.value, quantity: event.target.quantity.value, id: inventory.id});
+    props.onEditInventory({name: event.target.name.value, origin: event.target.origin.value, roast: event.target.roast.value, price: parseInt(event.target.price.value), quantity: parseInt(event.target.quantity.value), id: inventory.id});
   }
 
   return (
