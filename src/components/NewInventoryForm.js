@@ -12,6 +12,7 @@ function NewInventoryForm(props){
 
   return (
     <React.Fragment>
+      <a id="addinventory" />
       <ReusableForm 
         formSubmissionHandler={handleNewInventoryFormSubmission}
         className="btn btn-light" buttonText="Save" />

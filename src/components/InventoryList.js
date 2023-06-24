@@ -6,6 +6,7 @@ function InventoryList(props) {
   return (
     <React.Fragment>
       <hr/>
+      <a id="inventorylist" />
       {props.inventoryList.map((inventory) =>
         <InventoryItem
           name={inventory.name}

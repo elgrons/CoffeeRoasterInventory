@@ -4,7 +4,14 @@ import InventoryList from './InventoryList';
 import EditInventoryForm from './EditInventoryForm';
 import InventoryDetail from './InventoryDetail';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Routes, Route } from "react-router-dom";
+import styled from "styled-components";
 
+// const StyledApp = styled.main`
+// font-size: 20pt;
+// display: flex;
+// align-items: center;
+// `;
 class InventoryControl extends React.Component {
 
   constructor(props) {
@@ -105,8 +112,10 @@ class InventoryControl extends React.Component {
     }
     return (
       <React.Fragment>
+        {/* <StyledApp> */}
         {currentlyVisibleState}
         <button className="btn btn-secondary" onClick={this.handleClick}>{buttonText}</button> 
+        {/* </StyledApp> */}
       </React.Fragment>
     );
   }
