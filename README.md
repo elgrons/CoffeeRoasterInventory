@@ -3,7 +3,6 @@
 #### By Eliot Gronstal 4.21.23
 
 #### _A React application that tracks inventory for a local business that includes CRUD functionality. Made for Independent Code Review at Epicodus Week 13._
-
 ## Description
 _The application has the following functionality:_
 
@@ -69,11 +68,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Known Bugs
 
-* _The navbar is not currently functional, but it is pretty._
-
 * _Additional React components and functionality can be added as I increase my knowledge base on the React library_
 
-* Please reach out with any questions or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
+* Please reach out with any found bugs, questions, or concerns to [eliot.lauren@gmail.com](eliot.lauren@gmail.com)
 
 ## License
 

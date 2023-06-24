@@ -19,3 +19,18 @@
   height: auto;
   width: 55%; 
 }
+
+.coffeeBeans{
+  /* margin-top: 0; */
+  /* padding: 120px 0 100px 0; */
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.backgroundImg{
+  background-image: url(./img/roasted-coffee.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

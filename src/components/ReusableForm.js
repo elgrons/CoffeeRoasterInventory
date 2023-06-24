@@ -29,12 +29,12 @@ export default function ReusableForm(props) {
           type='number'
           name='price'
           required='required'
-          placeholder='1' /><br />
+          placeholder='Price: $14' /><br />
         <Form.Control
           type='number'
           name='quantity'
           required='required'
-          placeholder='1' /><br />
+          placeholder='Quantity: 12' /><br />
         <button className="btn btn-light" type='submit'>{props.buttonText}</button>
       </form>
       </Col>
