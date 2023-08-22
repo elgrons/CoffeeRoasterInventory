@@ -24,14 +24,10 @@ function Header() {
       <div className="backgroundImg">
       <StyledHeader>
         <a id="home" />
-        {/* <img
-          src={wallpaper}
-          alt="roasted coffee beans"
-          className="coffeeBeans"
-        /> */}
+        <div class="styled-navbar">
         <Navbar fixed="top" bg="light" expand="lg">
           <Container>
-            <Navbar.Brand href="/">
+            <Navbar.Brand mb-0 h1 href="/">
               Coffee Roastery Wholesale Inventory Tracker
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,6 +40,7 @@ function Header() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
+        </div>
       </StyledHeader>
       </div>
     </React.Fragment>

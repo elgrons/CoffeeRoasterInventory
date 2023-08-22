@@ -2,6 +2,8 @@
 
 #### By Eliot Gronstal 4.21.23
 
+![CoffeeRoaster](CoffeeRoaster.png)
+
 #### _A React application that tracks inventory for a local business that includes CRUD functionality. Made for Independent Code Review at Epicodus Week 13._
 ## Description
 _The application has the following functionality:_
@@ -18,8 +20,10 @@ _The application has the following functionality:_
 * _React_
 * _JSX_
 * _HTML/CSS_
+* _Bootstrap_
 * _JavaScript_
 * _Node_
+* _VS Code_
 
 ## Component Diagram
 

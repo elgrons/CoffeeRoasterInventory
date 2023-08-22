@@ -1,9 +1,56 @@
 .App {
   text-align: center;
+} 
+
+body {
+  font-size: 2rem;
+  text-align: center;
+  padding: 5%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 90px;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  padding: 0 3rem;
+}
+
+.nav-link {
+  padding: 0 1.7rem; 
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.backgroundImg{
+  background-image: url(./img/roasted-coffee.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 55vw; 
+  height: 45vh;
+}
+
+.coffeePouch{
+  height: auto;
+  width: 55%; 
+}
+
+.styled-navbar {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 3%;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -13,24 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.coffeePouch{
-  height: auto;
-  width: 55%; 
-}
-
-.coffeeBeans{
-  /* margin-top: 0; */
-  /* padding: 120px 0 100px 0; */
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.backgroundImg{
-  background-image: url(./img/roasted-coffee.png);
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
